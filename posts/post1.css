@@ -2,3 +2,6 @@ body{
     background-color: #ffff00;
     background-image: url(../images/vb4.jpg);
 }
+.resize-about{
+    size: 50%;
+}
