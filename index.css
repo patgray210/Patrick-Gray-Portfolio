@@ -1,0 +1,45 @@
+
+h1,h3,h4,th,td,small,p{
+    font-family: 'Source Sans Pro',sans-serif;
+    
+}
+section:before{
+    height:56px;
+    content:"";
+    display:block;
+}
+section{
+    min-heightaa:100avh;
+}
+#section-showcase{
+    background-image: url(./images/pppp.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#section-home{
+    min-height: 100vh;
+}
+#section-about{
+    min-height: 100vh;
+}
+#section-projects{
+    min-height: 100vh;
+}
+#section-blog{
+    min-height: 100vh;
+}
+#section-contact{
+    text-align: center;
+    min-height: 25vh;
+}
+html{
+    scroll-behavior:smooth;
+}
+#sidebar{
+    content:"";
+    display:block;
+}
+#contactForm { 
+    display: none;
+}
