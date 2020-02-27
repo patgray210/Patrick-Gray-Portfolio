@@ -8,9 +8,7 @@ section:before{
     content:"";
     display:block;
 }
-section{
-    min-heightaa:100avh;
-}
+
 #section-showcase{
     background-image: url(./images/pppp.jpg);
     background-repeat:no-repeat;
@@ -33,7 +31,7 @@ section{
     text-align: center;
     min-height: 25vh;
 }
-#p1-sum{
+#p1-sum,#p2-sum,#p3-sum{
     display: none;
 }
 html{
@@ -45,4 +43,8 @@ html{
 }
 #contactForm { 
     display: none;
+}
+#cardsLink{
+    
+    color: white;
 }

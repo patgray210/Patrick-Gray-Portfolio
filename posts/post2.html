@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <link href='post2.css' rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            section:before{
+                height:54px;
+                content:"";
+                display:block;
+            }
+            html{
+                scroll-behavior:smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <section class='container-fluid align-items-center'>
+            
+        <div class= container>
+        <div class='bg-info p-4'>
+            <h2>Javascript & Dom, adding interactive elements to my website</h2>
+            <p>
+                I upadted my portfolio site with two new features that used javascript but they essentially do the same thing as far as the code goes. The first update was to change the contact section to a single button that when click reveals the whole scetion as most people won't need to use it. The second feature is that on the project cards there is now a summary button which when clicked displays a brief explanation of the project.
+            </p>
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/VhzsmbcJM2TNKDK8Xy" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/VhzsmbcJM2TNKDK8Xy">via GIPHY</a></p>
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/L1F6MjIayaGmAoHomK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/L1F6MjIayaGmAoHomK">via GIPHY</a></p>
+            <p>
+                To get the contact part done I used the jquery function fade toggle which fades the elements in if they are faded out and fades the elelments out if they are already faded in. For the contact section it was fairly  strait forward I simply used an eventListener for a click of the button and had the called funciton use fadeToggle on the contact seciton contents which I have already hidden from diplay. I had some issues with syntax intialy combining the querey calls with $ with normal javascript syntax but after a few tries I sorted it out.
+                 
+            </p>
+            <img class=' img-fluid pb-4' src="../images/Capture1.PNG">
+            <p>
+                The summary addtion to the projects section was a little more extensive. To do this I had to create new card that are hidden and then when the summary button is clicked. Previously the entire card was a link to the project but this had to be changed to everything befoew the summary/overview buttons.
+            </p>
+            <img class=' img-fluid ' src="../images/Capture.PNG">
+            <p>Overall the changes were not massive but it did take a decent bit of time figuring out what I wanted to do and a lot more time spent on figuring out exactly how am I supposed to do that.</p>
+            
+        </div>
+        </div>
+    </section>
+        <nav id="top-navbar" class='navbar fixed-top navbar-expand-lg navbar-dark bg-dark'>
+            <a class='navbar-brand' href="#section-showcase"><strong>Patrick Gray's Blog</strong></a> 
+
+            <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#menu'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='menu'>
+            <ul class='nav navbar-nav ml-auto'>
+                <li class='nav-item'>
+                    <a class='nav-link' href="..\index.html"> Patrick's Portfolio</a>   </li>
+
+            </ul>
+            </div>
+        </nav>
+        
+        <hr>
+    <div class='bg-info p-4'>
+        <h3>About me</h3>
+        
+        <img class='thumbnail img-fluid span4' src='../images/me.jpg' width="15%">
+        
+        <h4 id='my-name'>Patrick Gray</h4>
+        <span> This is info about me</span>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
+    </body>
+</html>
