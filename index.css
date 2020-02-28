@@ -10,7 +10,7 @@ section:before{
 }
 
 #section-showcase{
-    background-image: url(./images/pppp.jpg);
+    background-image: url(./images/bg1.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -47,4 +47,10 @@ html{
 #cardsLink{
     
     color: white;
+}
+.center{
+    text-align: center;
+}
+#whatsNew{
+    display: none;
 }

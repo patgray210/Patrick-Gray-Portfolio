@@ -30,3 +30,9 @@ function buttonEvent3(){
 }
 let button6  = document.getElementById("sumButton5");
 button6.addEventListener("click",buttonEvent3);
+
+let button7 = document.getElementById("whatsNewb");
+button7.addEventListener("click",buttonEvent4);
+function buttonEvent4(){
+    $('#whatsNew').fadeToggle();
+}
