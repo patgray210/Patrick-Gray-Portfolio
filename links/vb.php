@@ -1,3 +1,6 @@
+<html>
+   <title>html in php </title>
+</html>
 <?php echo("hello world") ?>
 <?php
 $t=time();
