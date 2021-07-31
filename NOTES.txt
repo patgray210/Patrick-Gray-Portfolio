@@ -2,4 +2,4 @@ mysql info
 using mariaDB
 mysql -u root -p to open where the db is
 USE event_crawler to select the right db
-
+describe table_name; 
