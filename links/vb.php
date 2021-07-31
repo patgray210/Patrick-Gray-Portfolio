@@ -30,7 +30,7 @@
             <div class='collapse navbar-collapse' id='menu'>
             <ul class='nav navbar-nav ml-auto'>
                 <li class='nav-item'>
-                    <a class='nav-link' href="index.html"> Home</a>
+                    <a class='nav-link' href="../index.html"> Home</a>
                 </li>
             </ul>
             </div>
