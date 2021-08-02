@@ -36,3 +36,13 @@ button7.addEventListener("click",buttonEvent4);
 function buttonEvent4(){
     $('#whatsNew').fadeToggle();
 }
+
+let button8  = document.getElementById("card4sum");
+button8.addEventListener("click",card4);
+function card4(){
+    $('#p4-sum').fadeToggle();
+    $('#p4').fadeToggle();
+}
+
+let button9  = document.getElementById("sumButton7");
+button9.addEventListener("click",card4);

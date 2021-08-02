@@ -55,7 +55,6 @@
             <tr>
                <td> <?php echo $rows['page']; ?> </td>
                <td> <?php echo $rows['title']; ?> </td>
-
                <td> <?php echo $rows['description']; ?> </td>
                <td> <?php echo $rows['date']; ?> </td>
                <td> <?php echo $rows['place']; ?> </td>

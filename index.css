@@ -31,7 +31,7 @@ section:before{
     text-align: center;
     min-height: 25vh;
 }
-#p1-sum,#p2-sum,#p3-sum{
+#p1-sum,#p2-sum,#p3-sum,#p4-sum{
     display: none;
 }
 html{
