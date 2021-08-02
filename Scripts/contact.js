@@ -31,12 +31,6 @@ function buttonEvent3(){
 let button6  = document.getElementById("sumButton5");
 button6.addEventListener("click",buttonEvent3);
 
-let button7 = document.getElementById("whatsNewb");
-button7.addEventListener("click",buttonEvent4);
-function buttonEvent4(){
-    $('#whatsNew').fadeToggle();
-}
-
 let button8  = document.getElementById("card4sum");
 button8.addEventListener("click",card4);
 function card4(){
@@ -46,3 +40,10 @@ function card4(){
 
 let button9  = document.getElementById("sumButton7");
 button9.addEventListener("click",card4);
+
+let button7 = document.getElementById("whatsNewb");
+button7.addEventListener("click",buttonEvent4);
+function buttonEvent4(){
+    $('#whatsNew').fadeToggle();
+}
+
